@@ -65,6 +65,6 @@ func TestAddressDecoder_ScriptPubKeyToBech32Address(t *testing.T) {
 
 func TestAddressDecoder_VerifyAddress(t *testing.T) {
 	maccplus_addrdec.Default.IsTestNet = false
-	check := maccplus_addrdec.Default.AddressVerify("2GMhkR1uYueeK5cbG5k3XHfW1aSdALjq7Bs")
+	check := maccplus_addrdec.Default.AddressVerify("MJA4JcaxN1YxUScGjquJxveu2oiFu85GW3")
 	t.Logf("check: %v \n", check)
 }
